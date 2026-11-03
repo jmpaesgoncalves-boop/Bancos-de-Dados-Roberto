@@ -1,0 +1,1723 @@
+{
+  "metadados": {
+    "titulo": "Distribuição da população branca e negra (preta + parda) na Região Norte do Brasil, 2010–2020",
+    "orgao": "IBGE — Instituto Brasileiro de Geografia e Estatística",
+    "api_origem": "https://apisidra.ibge.gov.br",
+    "territorios": [
+      "Norte",
+      "Rondônia",
+      "Acre",
+      "Amazonas",
+      "Roraima",
+      "Pará",
+      "Amapá",
+      "Tocantins"
+    ],
+    "unidade": "pessoas",
+    "definicoes": {
+      "negra": "Soma de pretos e pardos, conforme classificação usada pelo IBGE e pelo Estatuto da Igualdade Racial (Lei 12.288/2010)",
+      "percentual": "Participação no total da população do território (o total inclui amarelos, indígenas e sem declaração)",
+      "razao_negra_por_branca": "Número de pessoas negras para cada pessoa branca"
+    },
+    "notas": [
+      "2010 é contagem do Censo; 2011 a 2020 são estimativas por amostra, arredondadas pelo IBGE em milhares de pessoas e convertidas para pessoas.",
+      "Censo, PNAD anual e PNAD Contínua têm metodologias diferentes; comparações entre 2010, 2011 e 2012+ devem ser feitas com cautela.",
+      "Para 2012–2019 o valor anual é a média simples das estimativas dos quatro trimestres.",
+      "2020: o IBGE não divulgou população por cor ou raça por UF do 2º ao 4º trimestre (coleta telefônica na pandemia); o dado de 2020 é apenas o 1º trimestre."
+    ],
+    "fontes": [
+      {
+        "ano": 2010,
+        "pesquisa": "Censo Demográfico 2010",
+        "tabela_sidra": 136,
+        "url": "https://sidra.ibge.gov.br/tabela/136"
+      },
+      {
+        "ano": 2011,
+        "pesquisa": "PNAD (anual)",
+        "tabela_sidra": 262,
+        "url": "https://sidra.ibge.gov.br/tabela/262"
+      },
+      {
+        "ano": "2012-2020",
+        "pesquisa": "PNAD Contínua trimestral",
+        "tabela_sidra": 6403,
+        "url": "https://sidra.ibge.gov.br/tabela/6403"
+      }
+    ],
+    "data_extracao": "2026-11-03"
+  },
+  "series": [
+    {
+      "ano": 2010,
+      "fonte": "Censo Demográfico 2010 (SIDRA Tabela 136)",
+      "tipo_dado": "contagem censitária",
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 15864454,
+          "branca": 3686144,
+          "preta": 1033504,
+          "parda": 10659535,
+          "negra": 11693039,
+          "percentual": {
+            "branca": 23.24,
+            "preta": 6.51,
+            "parda": 67.19,
+            "negra": 73.71
+          },
+          "razao_negra_por_branca": 3.17
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1562409,
+          "branca": 546534,
+          "preta": 106324,
+          "parda": 871401,
+          "negra": 977725,
+          "percentual": {
+            "branca": 34.98,
+            "preta": 6.81,
+            "parda": 55.77,
+            "negra": 62.58
+          },
+          "razao_negra_por_branca": 1.79
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 733559,
+          "branca": 171257,
+          "preta": 41547,
+          "parda": 490507,
+          "negra": 532054,
+          "percentual": {
+            "branca": 23.35,
+            "preta": 5.66,
+            "parda": 66.87,
+            "negra": 72.53
+          },
+          "razao_negra_por_branca": 3.11
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3483985,
+          "branca": 739114,
+          "preta": 142564,
+          "parda": 2403294,
+          "negra": 2545858,
+          "percentual": {
+            "branca": 21.21,
+            "preta": 4.09,
+            "parda": 68.98,
+            "negra": 73.07
+          },
+          "razao_negra_por_branca": 3.44
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 450479,
+          "branca": 94146,
+          "preta": 27168,
+          "parda": 274441,
+          "negra": 301609,
+          "percentual": {
+            "branca": 20.9,
+            "preta": 6.03,
+            "parda": 60.92,
+            "negra": 66.95
+          },
+          "razao_negra_por_branca": 3.2
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 7581051,
+          "branca": 1637544,
+          "preta": 533848,
+          "parda": 5300812,
+          "negra": 5834660,
+          "percentual": {
+            "branca": 21.6,
+            "preta": 7.04,
+            "parda": 69.92,
+            "negra": 76.96
+          },
+          "razao_negra_por_branca": 3.56
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 669526,
+          "branca": 159161,
+          "preta": 56205,
+          "parda": 439762,
+          "negra": 495967,
+          "percentual": {
+            "branca": 23.77,
+            "preta": 8.39,
+            "parda": 65.68,
+            "negra": 74.08
+          },
+          "razao_negra_por_branca": 3.12
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1383445,
+          "branca": 338388,
+          "preta": 125847,
+          "parda": 879318,
+          "negra": 1005165,
+          "percentual": {
+            "branca": 24.46,
+            "preta": 9.1,
+            "parda": 63.56,
+            "negra": 72.66
+          },
+          "razao_negra_por_branca": 2.97
+        }
+      ]
+    },
+    {
+      "ano": 2011,
+      "fonte": "PNAD anual 2011 (SIDRA Tabela 262)",
+      "tipo_dado": "estimativa amostral",
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 16528000,
+          "branca": 3889000,
+          "preta": 1097000,
+          "parda": 11202000,
+          "negra": 12299000,
+          "percentual": {
+            "branca": 23.53,
+            "preta": 6.64,
+            "parda": 67.78,
+            "negra": 74.41
+          },
+          "razao_negra_por_branca": 3.16
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1691000,
+          "branca": 620000,
+          "preta": 142000,
+          "parda": 911000,
+          "negra": 1053000,
+          "percentual": {
+            "branca": 36.66,
+            "preta": 8.4,
+            "parda": 53.87,
+            "negra": 62.27
+          },
+          "razao_negra_por_branca": 1.7
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 752000,
+          "branca": 204000,
+          "preta": 53000,
+          "parda": 478000,
+          "negra": 531000,
+          "percentual": {
+            "branca": 27.13,
+            "preta": 7.05,
+            "parda": 63.56,
+            "negra": 70.61
+          },
+          "razao_negra_por_branca": 2.6
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3689000,
+          "branca": 767000,
+          "preta": 143000,
+          "parda": 2589000,
+          "negra": 2732000,
+          "percentual": {
+            "branca": 20.79,
+            "preta": 3.88,
+            "parda": 70.18,
+            "negra": 74.06
+          },
+          "razao_negra_por_branca": 3.56
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 472000,
+          "branca": 113000,
+          "preta": 46000,
+          "parda": 284000,
+          "negra": 330000,
+          "percentual": {
+            "branca": 23.94,
+            "preta": 9.75,
+            "parda": 60.17,
+            "negra": 69.92
+          },
+          "razao_negra_por_branca": 2.92
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 7775000,
+          "branca": 1652000,
+          "preta": 517000,
+          "parda": 5539000,
+          "negra": 6056000,
+          "percentual": {
+            "branca": 21.25,
+            "preta": 6.65,
+            "parda": 71.24,
+            "negra": 77.89
+          },
+          "razao_negra_por_branca": 3.67
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 706000,
+          "branca": 151000,
+          "preta": 62000,
+          "parda": 485000,
+          "negra": 547000,
+          "percentual": {
+            "branca": 21.39,
+            "preta": 8.78,
+            "parda": 68.7,
+            "negra": 77.48
+          },
+          "razao_negra_por_branca": 3.62
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1444000,
+          "branca": 381000,
+          "preta": 134000,
+          "parda": 915000,
+          "negra": 1049000,
+          "percentual": {
+            "branca": 26.39,
+            "preta": 9.28,
+            "parda": 63.37,
+            "negra": 72.65
+          },
+          "razao_negra_por_branca": 2.75
+        }
+      ]
+    },
+    {
+      "ano": 2012,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 16323250,
+          "branca": 3391750,
+          "preta": 825750,
+          "parda": 11965250,
+          "negra": 12791000,
+          "percentual": {
+            "branca": 20.78,
+            "preta": 5.06,
+            "parda": 73.3,
+            "negra": 78.36
+          },
+          "razao_negra_por_branca": 3.77
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1611750,
+          "branca": 525250,
+          "preta": 112000,
+          "parda": 966000,
+          "negra": 1078000,
+          "percentual": {
+            "branca": 32.59,
+            "preta": 6.95,
+            "parda": 59.93,
+            "negra": 66.88
+          },
+          "razao_negra_por_branca": 2.05
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 777000,
+          "branca": 167250,
+          "preta": 33000,
+          "parda": 570500,
+          "negra": 603500,
+          "percentual": {
+            "branca": 21.53,
+            "preta": 4.25,
+            "parda": 73.42,
+            "negra": 77.67
+          },
+          "razao_negra_por_branca": 3.61
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3535750,
+          "branca": 684750,
+          "preta": 69750,
+          "parda": 2715000,
+          "negra": 2784750,
+          "percentual": {
+            "branca": 19.37,
+            "preta": 1.97,
+            "parda": 76.79,
+            "negra": 78.76
+          },
+          "razao_negra_por_branca": 4.07
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 437000,
+          "branca": 81000,
+          "preta": 22750,
+          "parda": 317500,
+          "negra": 340250,
+          "percentual": {
+            "branca": 18.54,
+            "preta": 5.21,
+            "parda": 72.65,
+            "negra": 77.86
+          },
+          "razao_negra_por_branca": 4.2
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 7841000,
+          "branca": 1520500,
+          "preta": 441250,
+          "parda": 5849500,
+          "negra": 6290750,
+          "percentual": {
+            "branca": 19.39,
+            "preta": 5.63,
+            "parda": 74.6,
+            "negra": 80.23
+          },
+          "razao_negra_por_branca": 4.14
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 706500,
+          "branca": 105500,
+          "preta": 46500,
+          "parda": 551000,
+          "negra": 597500,
+          "percentual": {
+            "branca": 14.93,
+            "preta": 6.58,
+            "parda": 77.99,
+            "negra": 84.57
+          },
+          "razao_negra_por_branca": 5.66
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1414250,
+          "branca": 307750,
+          "preta": 100750,
+          "parda": 996000,
+          "negra": 1096750,
+          "percentual": {
+            "branca": 21.76,
+            "preta": 7.12,
+            "parda": 70.43,
+            "negra": 77.55
+          },
+          "razao_negra_por_branca": 3.56
+        }
+      ]
+    },
+    {
+      "ano": 2013,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 16528750,
+          "branca": 3198500,
+          "preta": 847000,
+          "parda": 12363250,
+          "negra": 13210250,
+          "percentual": {
+            "branca": 19.35,
+            "preta": 5.12,
+            "parda": 74.8,
+            "negra": 79.92
+          },
+          "razao_negra_por_branca": 4.13
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1626750,
+          "branca": 499250,
+          "preta": 94500,
+          "parda": 1025000,
+          "negra": 1119500,
+          "percentual": {
+            "branca": 30.69,
+            "preta": 5.81,
+            "parda": 63.01,
+            "negra": 68.82
+          },
+          "razao_negra_por_branca": 2.24
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 788000,
+          "branca": 161500,
+          "preta": 27250,
+          "parda": 594500,
+          "negra": 621750,
+          "percentual": {
+            "branca": 20.49,
+            "preta": 3.46,
+            "parda": 75.44,
+            "negra": 78.9
+          },
+          "razao_negra_por_branca": 3.85
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3594500,
+          "branca": 603500,
+          "preta": 89750,
+          "parda": 2846250,
+          "negra": 2936000,
+          "percentual": {
+            "branca": 16.79,
+            "preta": 2.5,
+            "parda": 79.18,
+            "negra": 81.68
+          },
+          "razao_negra_por_branca": 4.86
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 447500,
+          "branca": 97000,
+          "preta": 27000,
+          "parda": 310000,
+          "negra": 337000,
+          "percentual": {
+            "branca": 21.68,
+            "preta": 6.03,
+            "parda": 69.27,
+            "negra": 75.31
+          },
+          "razao_negra_por_branca": 3.47
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 7924500,
+          "branca": 1428250,
+          "preta": 440250,
+          "parda": 6028000,
+          "negra": 6468250,
+          "percentual": {
+            "branca": 18.02,
+            "preta": 5.56,
+            "parda": 76.07,
+            "negra": 81.62
+          },
+          "razao_negra_por_branca": 4.53
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 718000,
+          "branca": 126750,
+          "preta": 69500,
+          "parda": 518250,
+          "negra": 587750,
+          "percentual": {
+            "branca": 17.65,
+            "preta": 9.68,
+            "parda": 72.18,
+            "negra": 81.86
+          },
+          "razao_negra_por_branca": 4.64
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1429250,
+          "branca": 282750,
+          "preta": 99250,
+          "parda": 1041000,
+          "negra": 1140250,
+          "percentual": {
+            "branca": 19.78,
+            "preta": 6.94,
+            "parda": 72.84,
+            "negra": 79.78
+          },
+          "razao_negra_por_branca": 4.03
+        }
+      ]
+    },
+    {
+      "ano": 2014,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 16726500,
+          "branca": 3066250,
+          "preta": 927500,
+          "parda": 12625250,
+          "negra": 13552750,
+          "percentual": {
+            "branca": 18.33,
+            "preta": 5.55,
+            "parda": 75.48,
+            "negra": 81.03
+          },
+          "razao_negra_por_branca": 4.42
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1641000,
+          "branca": 458000,
+          "preta": 75500,
+          "parda": 1104000,
+          "negra": 1179500,
+          "percentual": {
+            "branca": 27.91,
+            "preta": 4.6,
+            "parda": 67.28,
+            "negra": 71.88
+          },
+          "razao_negra_por_branca": 2.58
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 798500,
+          "branca": 128750,
+          "preta": 26250,
+          "parda": 638500,
+          "negra": 664750,
+          "percentual": {
+            "branca": 16.12,
+            "preta": 3.29,
+            "parda": 79.96,
+            "negra": 83.25
+          },
+          "razao_negra_por_branca": 5.16
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3651000,
+          "branca": 594000,
+          "preta": 69250,
+          "parda": 2942000,
+          "negra": 3011250,
+          "percentual": {
+            "branca": 16.27,
+            "preta": 1.9,
+            "parda": 80.58,
+            "negra": 82.48
+          },
+          "razao_negra_por_branca": 5.07
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 459500,
+          "branca": 93250,
+          "preta": 28750,
+          "parda": 323250,
+          "negra": 352000,
+          "percentual": {
+            "branca": 20.29,
+            "preta": 6.26,
+            "parda": 70.35,
+            "negra": 76.61
+          },
+          "razao_negra_por_branca": 3.77
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 8004000,
+          "branca": 1345000,
+          "preta": 524250,
+          "parda": 6104750,
+          "negra": 6629000,
+          "percentual": {
+            "branca": 16.8,
+            "preta": 6.55,
+            "parda": 76.27,
+            "negra": 82.82
+          },
+          "razao_negra_por_branca": 4.93
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 728750,
+          "branca": 154500,
+          "preta": 89000,
+          "parda": 481500,
+          "negra": 570500,
+          "percentual": {
+            "branca": 21.2,
+            "preta": 12.21,
+            "parda": 66.07,
+            "negra": 78.28
+          },
+          "razao_negra_por_branca": 3.69
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1443500,
+          "branca": 292750,
+          "preta": 114000,
+          "parda": 1031000,
+          "negra": 1145000,
+          "percentual": {
+            "branca": 20.28,
+            "preta": 7.9,
+            "parda": 71.42,
+            "negra": 79.32
+          },
+          "razao_negra_por_branca": 3.91
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 16916750,
+          "branca": 3095500,
+          "preta": 979750,
+          "parda": 12698750,
+          "negra": 13678500,
+          "percentual": {
+            "branca": 18.3,
+            "preta": 5.79,
+            "parda": 75.07,
+            "negra": 80.86
+          },
+          "razao_negra_por_branca": 4.42
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1654500,
+          "branca": 471000,
+          "preta": 87500,
+          "parda": 1087250,
+          "negra": 1174750,
+          "percentual": {
+            "branca": 28.47,
+            "preta": 5.29,
+            "parda": 65.71,
+            "negra": 71.0
+          },
+          "razao_negra_por_branca": 2.49
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 807750,
+          "branca": 126500,
+          "preta": 32000,
+          "parda": 642000,
+          "negra": 674000,
+          "percentual": {
+            "branca": 15.66,
+            "preta": 3.96,
+            "parda": 79.48,
+            "negra": 83.44
+          },
+          "razao_negra_por_branca": 5.33
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3706000,
+          "branca": 580500,
+          "preta": 64750,
+          "parda": 2995500,
+          "negra": 3060250,
+          "percentual": {
+            "branca": 15.66,
+            "preta": 1.75,
+            "parda": 80.83,
+            "negra": 82.58
+          },
+          "razao_negra_por_branca": 5.27
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 472750,
+          "branca": 100000,
+          "preta": 30500,
+          "parda": 321250,
+          "negra": 351750,
+          "percentual": {
+            "branca": 21.15,
+            "preta": 6.45,
+            "parda": 67.95,
+            "negra": 74.41
+          },
+          "razao_negra_por_branca": 3.52
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 8080500,
+          "branca": 1349500,
+          "preta": 558750,
+          "parda": 6143750,
+          "negra": 6702500,
+          "percentual": {
+            "branca": 16.7,
+            "preta": 6.91,
+            "parda": 76.03,
+            "negra": 82.95
+          },
+          "razao_negra_por_branca": 4.97
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 738500,
+          "branca": 161250,
+          "preta": 75000,
+          "parda": 498750,
+          "negra": 573750,
+          "percentual": {
+            "branca": 21.83,
+            "preta": 10.16,
+            "parda": 67.54,
+            "negra": 77.69
+          },
+          "razao_negra_por_branca": 3.56
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1457500,
+          "branca": 306750,
+          "preta": 131000,
+          "parda": 1010750,
+          "negra": 1141750,
+          "percentual": {
+            "branca": 21.05,
+            "preta": 8.99,
+            "parda": 69.35,
+            "negra": 78.34
+          },
+          "razao_negra_por_branca": 3.72
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 17100500,
+          "branca": 3197000,
+          "preta": 1107750,
+          "parda": 12598750,
+          "negra": 13706500,
+          "percentual": {
+            "branca": 18.7,
+            "preta": 6.48,
+            "parda": 73.67,
+            "negra": 80.15
+          },
+          "razao_negra_por_branca": 4.29
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1666500,
+          "branca": 475750,
+          "preta": 114250,
+          "parda": 1063750,
+          "negra": 1178000,
+          "percentual": {
+            "branca": 28.55,
+            "preta": 6.86,
+            "parda": 63.83,
+            "negra": 70.69
+          },
+          "razao_negra_por_branca": 2.48
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 816000,
+          "branca": 140750,
+          "preta": 40750,
+          "parda": 629250,
+          "negra": 670000,
+          "percentual": {
+            "branca": 17.25,
+            "preta": 4.99,
+            "parda": 77.11,
+            "negra": 82.11
+          },
+          "razao_negra_por_branca": 4.76
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3759000,
+          "branca": 622250,
+          "preta": 85500,
+          "parda": 2966250,
+          "negra": 3051750,
+          "percentual": {
+            "branca": 16.55,
+            "preta": 2.27,
+            "parda": 78.91,
+            "negra": 81.19
+          },
+          "razao_negra_por_branca": 4.9
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 487250,
+          "branca": 103750,
+          "preta": 37500,
+          "parda": 321000,
+          "negra": 358500,
+          "percentual": {
+            "branca": 21.29,
+            "preta": 7.7,
+            "parda": 65.88,
+            "negra": 73.58
+          },
+          "razao_negra_por_branca": 3.46
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 8153000,
+          "branca": 1399000,
+          "preta": 615250,
+          "parda": 6085500,
+          "negra": 6700750,
+          "percentual": {
+            "branca": 17.16,
+            "preta": 7.55,
+            "parda": 74.64,
+            "negra": 82.19
+          },
+          "razao_negra_por_branca": 4.79
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 747750,
+          "branca": 149750,
+          "preta": 53500,
+          "parda": 537500,
+          "negra": 591000,
+          "percentual": {
+            "branca": 20.03,
+            "preta": 7.15,
+            "parda": 71.88,
+            "negra": 79.04
+          },
+          "razao_negra_por_branca": 3.95
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1471000,
+          "branca": 305000,
+          "preta": 160500,
+          "parda": 995500,
+          "negra": 1156000,
+          "percentual": {
+            "branca": 20.73,
+            "preta": 10.91,
+            "parda": 67.68,
+            "negra": 78.59
+          },
+          "razao_negra_por_branca": 3.79
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 17276500,
+          "branca": 3282000,
+          "preta": 1177500,
+          "parda": 12609750,
+          "negra": 13787250,
+          "percentual": {
+            "branca": 19.0,
+            "preta": 6.82,
+            "parda": 72.99,
+            "negra": 79.8
+          },
+          "razao_negra_por_branca": 4.2
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1678000,
+          "branca": 484500,
+          "preta": 124250,
+          "parda": 1058250,
+          "negra": 1182500,
+          "percentual": {
+            "branca": 28.87,
+            "preta": 7.4,
+            "parda": 63.07,
+            "negra": 70.47
+          },
+          "razao_negra_por_branca": 2.44
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 824000,
+          "branca": 149750,
+          "preta": 40750,
+          "parda": 628500,
+          "negra": 669250,
+          "percentual": {
+            "branca": 18.17,
+            "preta": 4.95,
+            "parda": 76.27,
+            "negra": 81.22
+          },
+          "razao_negra_por_branca": 4.47
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3810500,
+          "branca": 649250,
+          "preta": 90250,
+          "parda": 3003500,
+          "negra": 3093750,
+          "percentual": {
+            "branca": 17.04,
+            "preta": 2.37,
+            "parda": 78.82,
+            "negra": 81.19
+          },
+          "razao_negra_por_branca": 4.77
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 502250,
+          "branca": 106250,
+          "preta": 39750,
+          "parda": 324500,
+          "negra": 364250,
+          "percentual": {
+            "branca": 21.15,
+            "preta": 7.91,
+            "parda": 64.61,
+            "negra": 72.52
+          },
+          "razao_negra_por_branca": 3.43
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 8222250,
+          "branca": 1454750,
+          "preta": 652000,
+          "parda": 6038250,
+          "negra": 6690250,
+          "percentual": {
+            "branca": 17.69,
+            "preta": 7.93,
+            "parda": 73.44,
+            "negra": 81.37
+          },
+          "razao_negra_por_branca": 4.6
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 756000,
+          "branca": 133250,
+          "preta": 57000,
+          "parda": 562750,
+          "negra": 619750,
+          "percentual": {
+            "branca": 17.63,
+            "preta": 7.54,
+            "parda": 74.44,
+            "negra": 81.98
+          },
+          "razao_negra_por_branca": 4.65
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1483750,
+          "branca": 304250,
+          "preta": 173500,
+          "parda": 994000,
+          "negra": 1167500,
+          "percentual": {
+            "branca": 20.51,
+            "preta": 11.69,
+            "parda": 66.99,
+            "negra": 78.69
+          },
+          "razao_negra_por_branca": 3.84
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 17446000,
+          "branca": 3193750,
+          "preta": 1158500,
+          "parda": 12813000,
+          "negra": 13971500,
+          "percentual": {
+            "branca": 18.31,
+            "preta": 6.64,
+            "parda": 73.44,
+            "negra": 80.08
+          },
+          "razao_negra_por_branca": 4.37
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1688500,
+          "branca": 474000,
+          "preta": 122750,
+          "parda": 1074500,
+          "negra": 1197250,
+          "percentual": {
+            "branca": 28.07,
+            "preta": 7.27,
+            "parda": 63.64,
+            "negra": 70.91
+          },
+          "razao_negra_por_branca": 2.53
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 831250,
+          "branca": 151500,
+          "preta": 39250,
+          "parda": 631250,
+          "negra": 670500,
+          "percentual": {
+            "branca": 18.23,
+            "preta": 4.72,
+            "parda": 75.94,
+            "negra": 80.66
+          },
+          "razao_negra_por_branca": 4.43
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3860000,
+          "branca": 611000,
+          "preta": 96750,
+          "parda": 3051500,
+          "negra": 3148250,
+          "percentual": {
+            "branca": 15.83,
+            "preta": 2.51,
+            "parda": 79.05,
+            "negra": 81.56
+          },
+          "razao_negra_por_branca": 5.15
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 518500,
+          "branca": 113500,
+          "preta": 36000,
+          "parda": 329000,
+          "negra": 365000,
+          "percentual": {
+            "branca": 21.89,
+            "preta": 6.94,
+            "parda": 63.45,
+            "negra": 70.4
+          },
+          "razao_negra_por_branca": 3.22
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 8288000,
+          "branca": 1397750,
+          "preta": 637750,
+          "parda": 6165000,
+          "negra": 6802750,
+          "percentual": {
+            "branca": 16.86,
+            "preta": 7.69,
+            "parda": 74.38,
+            "negra": 82.08
+          },
+          "razao_negra_por_branca": 4.87
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 763250,
+          "branca": 123000,
+          "preta": 55500,
+          "parda": 578250,
+          "negra": 633750,
+          "percentual": {
+            "branca": 16.12,
+            "preta": 7.27,
+            "parda": 75.76,
+            "negra": 83.03
+          },
+          "razao_negra_por_branca": 5.15
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1496500,
+          "branca": 323250,
+          "preta": 171250,
+          "parda": 983250,
+          "negra": 1154500,
+          "percentual": {
+            "branca": 21.6,
+            "preta": 11.44,
+            "parda": 65.7,
+            "negra": 77.15
+          },
+          "razao_negra_por_branca": 3.57
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 4 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 4,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 17608250,
+          "branca": 3225750,
+          "preta": 1196000,
+          "parda": 12920500,
+          "negra": 14116500,
+          "percentual": {
+            "branca": 18.32,
+            "preta": 6.79,
+            "parda": 73.38,
+            "negra": 80.17
+          },
+          "razao_negra_por_branca": 4.38
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1698250,
+          "branca": 488000,
+          "preta": 114750,
+          "parda": 1077750,
+          "negra": 1192500,
+          "percentual": {
+            "branca": 28.74,
+            "preta": 6.76,
+            "parda": 63.46,
+            "negra": 70.22
+          },
+          "razao_negra_por_branca": 2.44
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 837500,
+          "branca": 145750,
+          "preta": 40250,
+          "parda": 641000,
+          "negra": 681250,
+          "percentual": {
+            "branca": 17.4,
+            "preta": 4.81,
+            "parda": 76.54,
+            "negra": 81.34
+          },
+          "razao_negra_por_branca": 4.67
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3908000,
+          "branca": 616250,
+          "preta": 121750,
+          "parda": 3074000,
+          "negra": 3195750,
+          "percentual": {
+            "branca": 15.77,
+            "preta": 3.12,
+            "parda": 78.66,
+            "negra": 81.77
+          },
+          "razao_negra_por_branca": 5.19
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 535500,
+          "branca": 109250,
+          "preta": 46000,
+          "parda": 343750,
+          "negra": 389750,
+          "percentual": {
+            "branca": 20.4,
+            "preta": 8.59,
+            "parda": 64.19,
+            "negra": 72.78
+          },
+          "razao_negra_por_branca": 3.57
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 8350750,
+          "branca": 1440000,
+          "preta": 646250,
+          "parda": 6180500,
+          "negra": 6826750,
+          "percentual": {
+            "branca": 17.24,
+            "preta": 7.74,
+            "parda": 74.01,
+            "negra": 81.75
+          },
+          "razao_negra_por_branca": 4.74
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 770250,
+          "branca": 129000,
+          "preta": 51250,
+          "parda": 584500,
+          "negra": 635750,
+          "percentual": {
+            "branca": 16.75,
+            "preta": 6.65,
+            "parda": 75.88,
+            "negra": 82.54
+          },
+          "razao_negra_por_branca": 4.93
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1508500,
+          "branca": 297000,
+          "preta": 175250,
+          "parda": 1019000,
+          "negra": 1194250,
+          "percentual": {
+            "branca": 19.69,
+            "preta": 11.62,
+            "parda": 67.55,
+            "negra": 79.17
+          },
+          "razao_negra_por_branca": 4.02
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "fonte": "PNAD Contínua trimestral (SIDRA Tabela 6403) — média de 1 trimestre(s)",
+      "tipo_dado": "estimativa amostral",
+      "trimestres_usados": 1,
+      "dados": [
+        {
+          "territorio": "Norte",
+          "sigla": "N",
+          "codigo_ibge": "1",
+          "nivel": "Grande Região",
+          "populacao_total": 17707000,
+          "branca": 3100000,
+          "preta": 1155000,
+          "parda": 13197000,
+          "negra": 14352000,
+          "percentual": {
+            "branca": 17.51,
+            "preta": 6.52,
+            "parda": 74.53,
+            "negra": 81.05
+          },
+          "razao_negra_por_branca": 4.63
+        },
+        {
+          "territorio": "Rondônia",
+          "sigla": "RO",
+          "codigo_ibge": "11",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1704000,
+          "branca": 489000,
+          "preta": 116000,
+          "parda": 1080000,
+          "negra": 1196000,
+          "percentual": {
+            "branca": 28.7,
+            "preta": 6.81,
+            "parda": 63.38,
+            "negra": 70.19
+          },
+          "razao_negra_por_branca": 2.45
+        },
+        {
+          "territorio": "Acre",
+          "sigla": "AC",
+          "codigo_ibge": "12",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 841000,
+          "branca": 127000,
+          "preta": 41000,
+          "parda": 660000,
+          "negra": 701000,
+          "percentual": {
+            "branca": 15.1,
+            "preta": 4.88,
+            "parda": 78.48,
+            "negra": 83.35
+          },
+          "razao_negra_por_branca": 5.52
+        },
+        {
+          "territorio": "Amazonas",
+          "sigla": "AM",
+          "codigo_ibge": "13",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 3937000,
+          "branca": 542000,
+          "preta": 90000,
+          "parda": 3204000,
+          "negra": 3294000,
+          "percentual": {
+            "branca": 13.77,
+            "preta": 2.29,
+            "parda": 81.38,
+            "negra": 83.67
+          },
+          "razao_negra_por_branca": 6.08
+        },
+        {
+          "territorio": "Roraima",
+          "sigla": "RR",
+          "codigo_ibge": "14",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 547000,
+          "branca": 98000,
+          "preta": 40000,
+          "parda": 374000,
+          "negra": 414000,
+          "percentual": {
+            "branca": 17.92,
+            "preta": 7.31,
+            "parda": 68.37,
+            "negra": 75.69
+          },
+          "razao_negra_por_branca": 4.22
+        },
+        {
+          "territorio": "Pará",
+          "sigla": "PA",
+          "codigo_ibge": "15",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 8389000,
+          "branca": 1426000,
+          "preta": 653000,
+          "parda": 6249000,
+          "negra": 6902000,
+          "percentual": {
+            "branca": 17.0,
+            "preta": 7.78,
+            "parda": 74.49,
+            "negra": 82.27
+          },
+          "razao_negra_por_branca": 4.84
+        },
+        {
+          "territorio": "Amapá",
+          "sigla": "AP",
+          "codigo_ibge": "16",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 774000,
+          "branca": 125000,
+          "preta": 40000,
+          "parda": 601000,
+          "negra": 641000,
+          "percentual": {
+            "branca": 16.15,
+            "preta": 5.17,
+            "parda": 77.65,
+            "negra": 82.82
+          },
+          "razao_negra_por_branca": 5.13
+        },
+        {
+          "territorio": "Tocantins",
+          "sigla": "TO",
+          "codigo_ibge": "17",
+          "nivel": "Unidade da Federação",
+          "populacao_total": 1516000,
+          "branca": 293000,
+          "preta": 175000,
+          "parda": 1028000,
+          "negra": 1203000,
+          "percentual": {
+            "branca": 19.33,
+            "preta": 11.54,
+            "parda": 67.81,
+            "negra": 79.35
+          },
+          "razao_negra_por_branca": 4.11
+        }
+      ],
+      "aviso": "O IBGE não divulgou esta tabela para o 2º, 3º e 4º trimestres de 2020 (pandemia). O valor de 2020 corresponde apenas ao 1º trimestre."
+    }
+  ]
+}
