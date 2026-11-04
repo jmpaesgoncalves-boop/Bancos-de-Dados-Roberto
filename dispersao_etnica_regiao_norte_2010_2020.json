@@ -2,7 +2,7 @@
   "metadados": {
     "titulo": "Distribuição da população branca e negra (preta + parda) na Região Norte do Brasil, 2010–2020",
     "orgao": "IBGE — Instituto Brasileiro de Geografia e Estatística",
-    "api_origem": "https://apisidra.ibge.gov.br",
+    "api_origem": "https://raw.githubusercontent.com/jmpaesgoncalves-boop/Bancos-de-Dados-Roberto/refs/heads/main/DispersaoEtnica_Norte.csv",
     "territorios": [
       "Norte",
       "Rondônia",
